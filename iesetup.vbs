@@ -10,11 +10,7 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 If (fso.FolderExists("c:\Program Files (x86)\Internet Explorer")) Then
       strOS = "amd64"
 End If
-If (objFSO.FileExists("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")) Then
-intAnswer = _
-    Msgbox("MICROSOFT EDGE NEEDS TO BE CLOSED, PRESS YES TO CONTINUE INSTALLATION AND CLOSE MICROSOFT EDGE or NO TO EXIT SETUP?", _
-        vbYesNo, "Microsoft Edge")
-If intAnswer = vbYes Then
+
     objShell.Run("RegEdit /s " & chr(34) & objShell.CurrentDirectory & "\edgesecurity.reg" & chr(34))
 		Set myShortcut = objShell.CreateShortcut (strDesktop & "\Visual EMR.lnk")
 		myShortcut.TargetPath = objShell.CurrentDirectory & "\" & strOS &"\edge\Visual_edge.bat"
@@ -23,13 +19,10 @@ If intAnswer = vbYes Then
 		WshShell.Run "msiexec.exe /i c:\rhs\visual\emr\ScriptX.msi /passive"
 		oShell.Run "taskkill /f /im msedge.exe", , True
 	wscript.quit
-Else
-    wscript.quit
-End If
+
   		
 
-Else  
-End If
+
 
 If (objFSO.FileExists("C:\Program Files\Microsoft\Edge\Application\msedge.exe")) Then
   		objShell.Run("RegEdit /s " & chr(34) & objShell.CurrentDirectory & "\edgesecurity.reg" & chr(34))
