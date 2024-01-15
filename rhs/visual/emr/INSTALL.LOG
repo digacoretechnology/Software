@@ -1,0 +1,116 @@
+***  Installation Started 01/15/2024 13:14  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+Made Dir: c:\rhs
+Made Dir: c:\rhs\visual
+Made Dir: c:\rhs\visual\emr
+File Copy: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Copy: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Copy: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Copy: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Copy: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Copy: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+Made Dir: c:\rhs\visual\emr\\amd64
+Made Dir: c:\rhs\visual\emr\\amd64\edge
+File Copy: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+Made Dir: c:\rhs\visual\emr\\amd64\ie67
+File Copy: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+Made Dir: c:\rhs\visual\emr\\amd64\ie8
+File Copy: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+Made Dir: c:\rhs\visual\emr\\x86
+Made Dir: c:\rhs\visual\emr\\x86\edge
+File Copy: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+Made Dir: c:\rhs\visual\emr\\x86\ie67
+File Copy: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+Made Dir: c:\rhs\visual\emr\\x86\ie8
+File Copy: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
+***  Installation Started 01/15/2024 13:15  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+File Overwrite: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Overwrite: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Overwrite: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Overwrite: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Overwrite: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Overwrite: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+File Overwrite: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+File Overwrite: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+File Overwrite: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+File Overwrite: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+File Overwrite: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+File Overwrite: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
+***  Installation Started 01/15/2024 13:15  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+File Overwrite: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Overwrite: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Overwrite: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Overwrite: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Overwrite: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Overwrite: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+File Overwrite: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+File Overwrite: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+File Overwrite: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+File Overwrite: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+File Overwrite: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+File Overwrite: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
+***  Installation Started 01/15/2024 13:15  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+File Overwrite: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Overwrite: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Overwrite: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Overwrite: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Overwrite: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Overwrite: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+File Overwrite: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+File Overwrite: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+File Overwrite: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+File Overwrite: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+File Overwrite: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+File Overwrite: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
+***  Installation Started 01/15/2024 13:15  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+File Overwrite: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Overwrite: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Overwrite: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Overwrite: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Overwrite: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Overwrite: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+File Overwrite: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+File Overwrite: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+File Overwrite: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+File Overwrite: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+File Overwrite: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+File Overwrite: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
+***  Installation Started 01/15/2024 13:16  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+File Overwrite: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Overwrite: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Overwrite: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Overwrite: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Overwrite: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Overwrite: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+File Overwrite: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+File Overwrite: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+File Overwrite: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+File Overwrite: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+File Overwrite: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+File Overwrite: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
+***  Installation Started 01/15/2024 15:41  ***
+Title: Internet Explorer Setup for RHS Visual
+Source: C:\DTC-APPS\visualemr.exe | 01-15-2024 | 13:13:34 | 5575893
+File Overwrite: C:\rhs\visual\emr\\edgesecurity.reg | 02-09-2022 | 16:48:02 | | 6694 | eff538e6
+File Overwrite: C:\rhs\visual\emr\\iesecurity.reg | 02-08-2022 | 11:44:48 | | 6002 | 7e4f2431
+File Overwrite: C:\rhs\visual\emr\\iesetup.vbs | 08-22-2023 | 10:00:28 | | 3717 | 47acfbf
+File Overwrite: C:\rhs\visual\emr\\ScriptX.msi | 12-17-2015 | 18:15:56 | | 6311936 | ad71e851
+File Overwrite: C:\rhs\visual\emr\\userfilter.reg | 01-16-2023 | 15:03:34 | | 748 | 269d00cb
+File Overwrite: C:\rhs\visual\emr\\Visuali.ico | 11-16-2005 | 19:58:18 | | 9662 | 73ab149
+File Overwrite: C:\rhs\visual\emr\\amd64\edge\Visual_edge.bat | 06-01-2022 | 15:10:36 | | 1021 | 25f2fd26
+File Overwrite: C:\rhs\visual\emr\\amd64\ie67\Visual_IE67.bat | 07-29-2021 | 15:35:54 | | 1070 | 4b5ad1b2
+File Overwrite: C:\rhs\visual\emr\\amd64\ie8\Visual_IE8.bat | 02-22-2022 | 11:58:50 | | 995 | 9d72c80b
+File Overwrite: C:\rhs\visual\emr\\x86\edge\Visual_edge.bat | 06-01-2022 | 15:11:16 | | 1017 | 55bdd46a
+File Overwrite: C:\rhs\visual\emr\\x86\ie67\Visual_IE67.bat | 07-29-2021 | 15:36:30 | | 1066 | 5091b44e
+File Overwrite: C:\rhs\visual\emr\\x86\ie8\Visual_IE8.bat | 07-29-2021 | 15:36:20 | | 1070 | d372cce8
