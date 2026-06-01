@@ -21,13 +21,18 @@ Pull the engineer's open ConnectWise tickets and produce a concise, action-orien
 
 Engineers start their day needing to know: what needs action now, what's blocked on someone else, and what can be closed. This skill answers all three in one shot without opening the CW portal.
 
-## First-time setup — always confirm username
+## First-time setup — confirm credentials
 
-Before running the briefing, confirm the engineer's CW username. Ask:
+Before running the briefing, collect the engineer's personal CW credentials. Ask:
 
-> "What's your ConnectWise username? I want to make sure I only pull your tickets."
+> "To get started, I need your ConnectWise details:
+> 1. Your CW username (e.g. jsmith)
+> 2. Your personal CW Public Key
+> 3. Your personal CW Private Key
+>
+> You can generate API keys under CW > Account Settings > API Keys. These are personal to you — do not share them."
 
-Store the answer in working memory for the session. Never assume or reuse another engineer's username — this prevents accidentally surfacing or acting on someone else's tickets.
+Store all three in working memory for the session. Never reuse another engineer's credentials. Each engineer must supply their own public/private key pair — the host, company, and client ID are shared and pre-configured.
 
 ## Steps
 
