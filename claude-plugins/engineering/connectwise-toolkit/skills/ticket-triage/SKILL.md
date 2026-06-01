@@ -20,13 +20,18 @@ Search and display ConnectWise tickets for the engineer.
 
 Engineers need to quickly look up tickets by company, status, or keyword without navigating the CW portal. This skill handles all read operations — fetching ticket details, reviewing notes, checking time entries.
 
-## First-time setup — always confirm username
+## First-time setup — confirm credentials
 
-Before running any search, confirm the engineer's CW username. Ask:
+Before running any query, collect the engineer's personal CW credentials. Ask:
 
-> "What's your ConnectWise username? I want to make sure I only pull your tickets."
+> "To get started, I need your ConnectWise details:
+> 1. Your CW username (e.g. jsmith)
+> 2. Your personal CW Public Key
+> 3. Your personal CW Private Key
+>
+> You can generate API keys under CW > Account Settings > API Keys. These are personal to you — do not share them."
 
-Store the answer in working memory for the session. Never assume or reuse another engineer's username from a prior conversation — CW usernames are personal and queries scoped to the wrong user could surface sensitive data.
+Store all three in working memory for the session. Never reuse another engineer's credentials. The host, company, and client ID are shared and pre-configured — only the public/private key pair is personal.
 
 ## Available operations
 
