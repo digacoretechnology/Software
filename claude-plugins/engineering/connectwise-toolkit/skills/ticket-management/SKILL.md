@@ -20,11 +20,23 @@ Add notes, update statuses, and close ConnectWise tickets.
 
 Engineers update tickets constantly — after calls, after vendor follow-ups, after resolving issues. This skill handles all write operations so they can do it from Claude without opening the CW portal.
 
-## Safety first — always confirm ownership
+## First-time setup — confirm credentials
 
-Before making any change:
+Before making any change, collect the engineer's personal CW credentials. Ask:
+
+> "To get started, I need your ConnectWise details:
+> 1. Your CW username (e.g. jsmith)
+> 2. Your personal CW Public Key
+> 3. Your personal CW Private Key
+>
+> You can generate API keys under CW > Account Settings > API Keys. These are personal to you — do not share them."
+
+Store all three in working memory for the session. Never reuse another engineer's credentials. The host, company, and client ID are shared and pre-configured — only the public/private key pair is personal.
+
+## Safety — always confirm ownership
+
 1. Confirm the ticket ID with the user if there is any ambiguity (never guess)
-2. Never update a ticket that belongs to another engineer unless the user explicitly asks and provides the ID
+2. Never update a ticket belonging to another engineer unless the user explicitly provides the ID
 3. If the user references a ticket by description ("the Mesorah ticket"), look it up first with `cw_get_ticket` or `cw_search_tickets` to confirm the ID before writing
 
 ## Operations
@@ -33,7 +45,7 @@ Before making any change:
 
 Use `cw_add_ticket_note` with:
 - `ticket_id`: the numeric CW ticket ID
-- `text`: the note content — write in technician voice (what was done, what the result was, next steps)
+- `text`: the note content — technician voice (what was done, result, next steps)
 - `internal`: `true` for internal analysis notes, `false` for external/client-visible notes
 
 Default to `internal: true` unless the user explicitly says "external" or "client-facing."
@@ -63,18 +75,12 @@ Status names starting with `>` must be passed literally — do not HTML-encode t
 
 ### Closing a ticket
 
-Always add an internal note explaining why the ticket is being closed before changing the status. This creates an audit trail.
+Always add an internal note explaining why before changing status. This creates an audit trail.
 
-- Board 54 close status: `>Closed`
-- Board 72 close status: `> Closed`
+- Board 54: `>Closed`
+- Board 72: `> Closed`
 - Board 72 cancelled/unapproved: `>Canceled` or `> Closed – Client Not Approved`
 
 ## CW ticket note tone
 
-Write notes the way a technician writes for other technicians:
-- What the vendor/client/source said
-- What steps were taken
-- What the result was
-- Current status / next action
-
-No full sentences required. No filler. Action-oriented.
+Technician writing for technicians: what was said, what was done, what the result was, next action. No full sentences required. No filler.
