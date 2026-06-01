@@ -3,8 +3,8 @@ name: ticket-management
 description: >
   Add notes, update status, or close ConnectWise tickets. Use this skill whenever the user
   says "add a note to ticket", "close this ticket", "set the status to", "update ticket
-  XXXXX", "mark as waiting vendor", "add internal note", "add an external note", "change
-  ticket status", "cancel this ticket", or any request that writes to a CW ticket.
+  XXXXX", "mark as waiting on 3rd party", "add internal note", "add an external note",
+  "change ticket status", "cancel this ticket", or any request that writes to a CW ticket.
   This skill makes changes — confirm the ticket ID and action before proceeding when
   the intent is ambiguous. Do not guess ticket numbers.
 metadata:
@@ -66,10 +66,10 @@ Use `cw_update_ticket_status` with the exact status name. Status names are board
 `>Closed`, `>Closed - Day 3 No Response`, `>Closed - Notification`,
 `>Resolved - RMM`, `>Cancelled`, `>Closed - Bundled`
 
-**Board 72 — Account Management Board** statuses:
-`New`, `In Progress`, `Scheduled`, `Waiting Vendor`, `Waiting Client Response`,
-`On Hold`, `Completed`, `Completed - Day 3 No Response`,
-`> Closed – Client Not Approved`, `> Closed`, `>Canceled`
+**Projects Board** statuses:
+`Backlog`, `Ready to Work`, `Waiting on 3rd Party`, `Waiting on Procurement`,
+`Ready to Continue`, `Process Still Running`, `In Progress`, `Scheduled`,
+`Waiting on Client`, `Need to Schedule`, `Backlog - Date Pending`, `>Closed`
 
 Status names starting with `>` must be passed literally — do not HTML-encode them.
 
@@ -77,9 +77,8 @@ Status names starting with `>` must be passed literally — do not HTML-encode t
 
 Always add an internal note explaining why before changing status. This creates an audit trail.
 
-- Board 54: `>Closed`
-- Board 72: `> Closed`
-- Board 72 cancelled/unapproved: `>Canceled` or `> Closed – Client Not Approved`
+- Board 54 (service tickets): `>Closed`
+- Projects board: `>Closed`
 
 ## CW ticket note tone
 
