@@ -3,9 +3,9 @@
   "description": "ConnectWise Manage API connector for ticket operations",
   "command": "TODO — confirm package/command with Nathan",
   "env": {
-    "CW_HOST": "${CW_HOST}",
-    "CW_COMPANY": "${CW_COMPANY}",
-    "CW_CLIENT_ID": "${CW_CLIENT_ID}",
+    "CW_HOST": "na.myconnectwise.net",
+    "CW_COMPANY": "digacore",
+    "CW_CLIENT_ID": "ffaf1132-9e1e-4b20-894c-9741dcd0c290",
     "CW_PUBLIC_KEY": "${CW_PUBLIC_KEY}",
     "CW_PRIVATE_KEY": "${CW_PRIVATE_KEY}"
   },
@@ -19,10 +19,8 @@
     "cw_get_company"
   ],
   "_setup_notes": [
-    "CW_HOST: na.myconnectwise.net",
-    "CW_COMPANY: digacore",
-    "CW_CLIENT_ID: shared client ID — same for all engineers (ffaf1132-9e1e-4b20-894c-9741dcd0c290)",
-    "CW_PUBLIC_KEY and CW_PRIVATE_KEY: each engineer must generate their OWN API keys under CW Account Settings -> API Keys.",
-    "Do NOT share keys — API keys authenticate as the user who created them. Using someone else's keys means actions are logged under their account and their ticket permissions apply."
+    "CW_HOST, CW_COMPANY, CW_CLIENT_ID are shared — pre-filled above.",
+    "CW_PUBLIC_KEY and CW_PRIVATE_KEY are personal — each engineer generates their own under CW > Account Settings > API Keys.",
+    "Do NOT share personal keys. API keys authenticate as the user who created them."
   ]
 }
