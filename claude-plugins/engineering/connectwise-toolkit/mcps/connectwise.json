@@ -1,0 +1,20 @@
+{
+  "name": "connectwise",
+  "description": "ConnectWise Manage API connector for ticket operations",
+  "command": "TODO — confirm package/command with Nathan",
+  "env": {
+    "CW_COMPANY_ID": "${CW_COMPANY_ID}",
+    "CW_PUBLIC_KEY": "${CW_PUBLIC_KEY}",
+    "CW_PRIVATE_KEY": "${CW_PRIVATE_KEY}",
+    "CW_BASE_URL": "${CW_BASE_URL}"
+  },
+  "tools": [
+    "cw_search_tickets",
+    "cw_get_ticket",
+    "cw_get_ticket_notes",
+    "cw_get_time_entries",
+    "cw_add_ticket_note",
+    "cw_update_ticket_status",
+    "cw_get_company"
+  ]
+}
