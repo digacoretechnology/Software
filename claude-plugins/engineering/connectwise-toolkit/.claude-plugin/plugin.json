@@ -1,0 +1,7 @@
+{
+  "name": "ConnectWise Toolkit",
+  "version": "0.1.0",
+  "description": "Engineering team plugin for ConnectWise ticket management — daily briefings, ticket triage, notes, status updates, and closures.",
+  "author": "Ashwin Sridaran <asridaran@digacore.com>",
+  "department": "engineering"
+}
